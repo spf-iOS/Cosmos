@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "MGCosmos"
-  s.version     = "1.0.0"
+  s.version     = "16.0.0"
   s.license     = { :type => "MIT" }
   s.homepage    = "https://github.com/spf-iOS/Cosmos"
   s.summary     = "5-star rating control written in Swift"
