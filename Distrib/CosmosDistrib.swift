@@ -396,18 +396,18 @@ struct CosmosDefaultSettings {
   Array of points for drawing the star with size of 100 by 100 pixels. Supply your points if you need to draw a different shape.
   
   */
-  static let starPoints: [CGPoint] = [
-    CGPoint(x: 49.5,  y: 0.0),
-    CGPoint(x: 60.5,  y: 35.0),
-    CGPoint(x: 99.0, y: 35.0),
-    CGPoint(x: 67.5,  y: 58.0),
-    CGPoint(x: 78.5,  y: 92.0),
-    CGPoint(x: 49.5,    y: 71.0),
-    CGPoint(x: 20.5,  y: 92.0),
-    CGPoint(x: 31.5,  y: 58.0),
-    CGPoint(x: 0.0,   y: 35.0),
-    CGPoint(x: 38.5,  y: 35.0)
-  ]
+    static let starPoints: [CGPoint] = [
+        CGPoint(x: 49.5,  y: 0.0),
+        CGPoint(x: 66.5,  y: 25.0),
+        CGPoint(x: 99.0, y: 35.0),
+        CGPoint(x: 73.5,  y: 58.0),
+        CGPoint(x: 78.5,  y: 92.0),
+        CGPoint(x: 49.5,    y: 82.0),
+        CGPoint(x: 20.5,  y: 92.0),
+        CGPoint(x: 20.5,  y: 58.0),
+        CGPoint(x: 0.0,   y: 35.0),
+        CGPoint(x: 32.5,  y: 25.0)
+    ]
   
   /// Size of a single star.
   static var starSize: Double = 20
