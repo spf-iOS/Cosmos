@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "MGCosmos"
-  s.version     = "17.0.0"
+  s.version     = "18.0.0"
   s.license     = { :type => "MIT" }
   s.homepage    = "https://github.com/spf-iOS/Cosmos"
   s.summary     = "5-star rating control written in Swift"
@@ -16,9 +16,7 @@ Pod::Spec.new do |s|
                    DESC
   s.authors     = { "111111" => "spf-iOS@gmail.com" }
   s.source      = { :git => "https://github.com/spf-iOS/Cosmos.git", :tag => s.version }
-  s.screenshots  = "https://raw.githubusercontent.com/evgenyneu/Cosmos/master/graphics/Screenshots/cosmos_star_rating_control_for_ios_swift_space.png"
   s.source_files = "Cosmos/**/*.swift"
   s.ios.deployment_target = "8.0"
   s.tvos.deployment_target = "9.0"
-  s.swift_version = '4.0'
 end
