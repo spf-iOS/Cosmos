@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                    * Cosmos is accessible and works with voice-over.
                    * Supports right-to-left languages.
                    DESC
-  s.authors     = { "Evgenii Neumerzhitckii" => "sausageskin@gmail.com" }
+  s.authors     = { "111111" => "spf-iOS@gmail.com" }
   s.source      = { :git => "https://github.com/spf-iOS/Cosmos.git", :tag => s.version }
   s.screenshots  = "https://raw.githubusercontent.com/evgenyneu/Cosmos/master/graphics/Screenshots/cosmos_star_rating_control_for_ios_swift_space.png"
   s.source_files = "Cosmos/**/*.swift"
